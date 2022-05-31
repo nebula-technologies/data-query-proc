@@ -1,5 +1,7 @@
-use data_query_lexer as lexer;
-use data_query_lexer::MacroFormat;
+extern crate data_query_lexical;
+
+use data_query_lexical as lexer;
+use data_query_lexical::MacroFormat;
 use proc_macro::TokenStream;
 use std::str::FromStr;
 
