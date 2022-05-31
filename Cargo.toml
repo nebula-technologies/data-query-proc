@@ -2,6 +2,13 @@
 name = "data-query-proc"
 version = "0.1.0"
 edition = "2021"
+authors = ["Anders Blenstrup-Pedersen <abp-git@ryuu.technology>"]
+description = "a Proc support library for the Data Query"
+readme = "README.md"
+categories = ["data-query-macro"]
+keywords = ["query-lexical", "support-library"]
+license = "MIT"
+repository = "https://github.com/nebula-technologies/data-query-proc"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
