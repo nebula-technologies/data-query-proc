@@ -1,6 +1,6 @@
 [package]
 name = "data-query-proc"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Anders Blenstrup-Pedersen <abp-git@ryuu.technology>"]
 description = "a Proc support library for the Data Query"
@@ -16,4 +16,4 @@ proc-macro = true
 
 [dependencies]
 quote = "1.0.18"
-data-query-lexical = "0.1.1"
+data-query-lexical = "0.1.2"
