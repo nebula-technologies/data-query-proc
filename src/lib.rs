@@ -8,7 +8,6 @@ use std::str::FromStr;
 #[proc_macro]
 pub fn precompile_lex(input: TokenStream) -> TokenStream {
     let lex = input.to_string();
-    println!("{}", lex);
     let const_lex = lexer::compile(&lex);
     if let Err(v) = const_lex {
         panic!(
