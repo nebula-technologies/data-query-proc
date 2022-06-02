@@ -16,4 +16,4 @@ proc-macro = true
 
 [dependencies]
 quote = "1.0.18"
-data-query-lexical = "0.1.2"
+data-query-lexical = "^0.1"
